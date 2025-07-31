@@ -15,6 +15,8 @@ And the mujoco configuration process also be finished, it can be seen in `e05/ur
 **(1) Prepare the ros workspace**
 
 ```shell
+sudo apt-get install ros-noetic-socketcan-interface
+sudo apt-get install ros-noetic-soem
 mkdir -p catkin_ws/src
 cd catkin_ws/src
 catkin_init_workspace
